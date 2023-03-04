@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    color: #4263f5;
+}
+.titles{
+    display: flex;
+    align-items:center ;
+    margin-left: 220px;
+    margin-bottom: -15px;
+}
+.hrline{
+    background-color: #4263f5;    
+    height: 3px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+/* Navbar */
+.nav-bar{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0px 2px 0 rgba(0,0,0,.2);
+    padding: 10px 20px 15px;
+}
+.nav-bar h4{
+    margin-bottom: 0px;
+}
+.nav-link{
+    padding: 10px;
+    border-radius: 5px;
+    color: #4263f5;
+  
+}
+.nav-link:hover{
+    background-color:aliceblue
+}
+.resume{
+background-color: #4263f5;
+color: white;
+padding: 10px;
+border-radius: 5px;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px;
+    gap:15px;
+    font-style:italic ;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+
+
+.intro{
+display: inline-block;
+   gap: 10px;
+   margin:40px 0;
+   /* margin-top: ; */
+   line-height: 50px;
+   padding-left: 70px;
+
+}
+
+.intro .span{
+    background-color: #4B56D2;
+    color: aliceblue;
+    padding: 13px;
+    border-radius: 2px;
+    margin-left: 70px;
+    font-style: italic;
+}
+.intro h2{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+
+/* About me */
+.about{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.about p{
+    margin: 0;
+    margin-bottom: 10px;
+    width: 500px;
+    font-style: italic;
+}
+.about span{
+    font-weight: 900;
+    font-size: 20px;
+    color: #4263f5;
+}
+
+
+/* Next code skills */
+.Skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 40px;
+}
+  
+/* Projects */
+
+.projects h1{
+    display: inline-block;
+    background-color:gray;
+    color: white;
+    padding: 13px;
+    border-radius: 2px;
+    font-style: italic;
+    padding:10px 18px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.samples{
+    margin-top: 0px;
+    margin: 27px;
+    display: flex;
+    color: black;
+    font-style: italic;
+
+}
+.samples img{
+width: 700px;
+margin: 18px;
+margin-bottom: 50px;
+background-color: transparent;
+}
+
+
+/* Others */
+.others{
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+.others ul{
+    list-style: none;
+    /* margin-left: 150px; */
+}
+.others li{
+    line-height: 2;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#4B56D2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.my-img{
+    width: 300px;
+    border-radius: 50%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
